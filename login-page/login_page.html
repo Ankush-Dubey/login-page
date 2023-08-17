@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+        
+    margin: 2px;
+    padding: 3px;
+    box-sizing: border-box;
+    }
+   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000000;
+    background-color: #a07aa0;
+
+
+    }
+    .wrapper{
+        width: 500px;
+        background: #f0f7e7;
+        border-style: dotted;
+
+    }
+    .wrapper h1{
+        font: size 40px;
+        font-style: italic;
+       text-align: center;
+       
+}
+
+
+
+
+</style>
+<body>
+    <div class="wrapper">
+    <form action="">
+        <div>
+        <h1>
+        Login
+        </hi>
+    </div>
+        <div class="input-box">
+            <input type="text" placeholder="First name" required><i class='bx bxs-user'></i>
+            <input type="text" placeholder="Last name" required><i class='bx bxs-user'></i>
+            <br>
+            <input type="email" placeholder="@gmail.com"required>
+            <br>
+            <input type="password" placeholder="**********" required><i class='bx bxs-lock'></i>
+
+        </div>
+
+       
+        <div class="remember-forget">
+            <label><input type="checkbox">remember me</label>
+            <a href="#">Forget password?</a>
+            <br>
+            <button class="submit" class="btn">Login</button>
+            
+        </div>
+        <div class="register-link">
+        </div>
+        <p>Don't have account?<a href="#"> register</a></p>
+    </form>
+</div>
+</body>
+</html>
